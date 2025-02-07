@@ -1,0 +1,45 @@
+*{
+margin: auto;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 75%;
+    margin-top: 50px;
+}
+img{
+    margin-top: 20px;
+    width: 110px;
+    height: 110px;
+    /* background-color: yellow; */
+    padding: 10px;
+    /* border: 1.5px solid black; */
+}
+button{
+    box-shadow: 2px 2px 5px grey;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+.rock{
+    background-color: rgb(234, 59, 59);
+}
+.paper{
+    background-color: rgb(237, 237, 19);
+}
+.scissors{
+     background-color: rgb(18, 141, 18);
+}
+.yourScore{
+    color: green;
+}
+.compScore{
+    color: red;
+}
